@@ -1,6 +1,11 @@
 @import '../../../styles/mixins';
 
 .header {
+  position: sticky;
+  top: 0;
+  background: $white;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
   .nav {
     list-style-type: none;
     font-size: 1.5rem;
