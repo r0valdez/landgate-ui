@@ -3,8 +3,8 @@
 <header class="header">
     <div class="container">
         <ul class="nav">
-            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">People</a></li>
+            <li class="nav__item"><a href="/home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="/people" class="nav__link">People</a></li>
             <li class="nav__item"><a href="#" class="nav__link">About</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
@@ -13,8 +13,8 @@
             <img *ngIf="!openBurgerMenu" (click)="toggleMenu()" src="assets/images/menu.png" width="30" alt="menu" class="toggle-button" />
             <img *ngIf="openBurgerMenu" (click)="toggleMenu()" src="assets/images/close.png" width="30" alt="menu" class="toggle-button" />
             <ul *ngIf="openBurgerMenu" class="mobile-nav">
-                <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Home</a></li>
-                <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">People</a></li>
+                <li class="mobile-nav__item"><a href="/home" class="mobile-nav__link">Home</a></li>
+                <li class="mobile-nav__item"><a href="/people" class="mobile-nav__link">People</a></li>
                 <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">About</a></li>
                 <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Blog</a></li>
                 <li class="mobile-nav__item"><a href="#" class="mobile-nav__link">Contact</a></li>
