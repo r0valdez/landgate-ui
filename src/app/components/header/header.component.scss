@@ -3,6 +3,7 @@
 .header {
   position: sticky;
   top: 0;
+  z-index: 100;
   background: $white;
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 
@@ -48,6 +49,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 100;
     background-color: $white;
 
     &__link {
