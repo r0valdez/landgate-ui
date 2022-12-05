@@ -1,6 +1,29 @@
-section{
+@import '../../../styles/mixins';
+
+section {
+    padding: 5rem 0;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+section.hero {
     background-image: url("/assets/images/hero-bg.jpg");
     background-size: contain;
     width:auto;
     height: 500px;
+}
+
+section.first-section {
+    background-color: $light;
+}
+
+section.second-section {
+    background-color: $dark;
+    color: $white;
 }
